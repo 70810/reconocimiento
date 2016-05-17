@@ -1,0 +1,23 @@
+<html>
+<html lang="es">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="css/estilos.css">
+<script type="text/javascript" src="js/script.js"></script>
+
+<title> Reconocimiento de Voz </title>
+</head>
+<body>
+	<header>
+		<h1>practica </h1>
+	</header>
+	<section>
+			<textarea id="texto"></textarea>
+			<img id="id_imagen" src="imagenes\nohabla.png" onmouseover="hablar(this.id);" onmouseout="this.src='imagenes/nohabla.png';"/>
+			<!-- <img src="imagenes\nohabla.png" onmouseover="hablar()"> -->
+			<button onclick="procesar()" id="procesar">Listo...</button>
+	</section>
+	<script src='//code.responsivevoice.org/responsivevoice.js'></script>
+</body>
+
+</html>
